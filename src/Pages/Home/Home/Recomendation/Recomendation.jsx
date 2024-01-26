@@ -11,7 +11,6 @@ const Recomendation = () => {
                 setMenu(recomand);
             })
     }, [])
-    console.log(menu);
     return (
         <section className='max-w-screen-lg mx-auto my-16'>
             <SectionTitle
